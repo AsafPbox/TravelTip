@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ES6</title>
+</head>
+<body>
+    <h1>Travel Tip</h1>
+    <div class="main-container">
+        <section>
+            <input class="location-input" type="text" placeholder="Enter Location">
+            <button class="btn-location-input">GO</button>
+            <button class="btn-user-location">My Location</button>
+        </section>
+
+        <section>
+            <h3>Location : <span></span></h3>
+            <button>Copy Location</button>
+        </section>
+
+        <section>
+            <div class="weather-info">weather-info</div>
+
+
+            <div id="map" style="width: 100%; height: 400px;"></div>
+            <button class="btn">Click Me</button>
+        </section>
+        
+    </div>      
+    
+    <script src="lib/axios.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
